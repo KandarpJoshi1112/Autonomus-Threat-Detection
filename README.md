@@ -130,15 +130,6 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ---
 
-## 🤝 Contribute
-
-Pull requests are welcome. For major changes, open an issue first to discuss what you would like to change or improve.
-
----
-
-## ⭐ If you like this project...
-
-Give it a star ⭐ and share it with other developers or students interested in network security & AI!
 
 
 ## Screenshots 📷
@@ -163,4 +154,24 @@ Reinforcement Learning:
 Dashboard:
 
 ![Screenshot (54)](https://github.com/user-attachments/assets/e1e33de6-995f-4070-8d9b-c7d5ea5f9c55)
+
+
+
+## 🤝 Contribute
+
+Pull requests are welcome. For major changes, open an issue first to discuss what you would like to change or improve.
+
+---
+
+## Author
+
+👤 **Kandarp Joshi**
+
+* Github: [@Kandarp Joshi](https://github.com/KandarpJoshi1112)
+* LinkedIn: [@Kandarp Joshi](https://www.linkedin.com/in/kandarp-joshi-3451231bb/)
+
+
+## ⭐ If you like this project...
+
+Give it a star ⭐ and share it with other developers or students interested in network security & AI!
 
