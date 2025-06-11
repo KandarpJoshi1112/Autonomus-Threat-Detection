@@ -1,0 +1,13 @@
+fastapi
+scapy
+stable-baselines3
+langchain
+gpt4all
+faiss-cpu
+sqlite-utils
+networkx
+transformers
+sentence-transformers
+langchain-community
+langchain
+langchain-huggingface

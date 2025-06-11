@@ -1,0 +1,75 @@
+"""
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Threat Detection Dashboard</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f4f4f4;
+      }
+      .summary {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Threat Detection Dashboard</h1>
+
+    <div class="summary">
+      <h2>Classification Summary</h2>
+      <ul>
+        {% for label, count in summary.items() %}
+        <li><strong>{{ label }}:</strong> {{ count }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="logs">
+      <h2>Recent Log Entries (First {{ logs|length }}):</h2>
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>Timestamp</th>
+          <th>Src IP</th>
+          <th>Dst IP</th>
+          <th>Src Port</th>
+          <th>Dst Port</th>
+          <th>Protocol</th>
+          <th>Class</th>
+        </tr>
+        {% for row in logs %}
+        <tr>
+          <td>{{ row[0] }}</td>
+          <td>{{ row[1] }}</td>
+          <td>{{ row[2] }}</td>
+          <td>{{ row[3] }}</td>
+          <td>{{ row[4] }}</td>
+          <td>{{ row[5] }}</td>
+          <td>{{ row[6] }}</td>
+          <td>{{ row[7] }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </body>
+</html>
+"""
